@@ -1,0 +1,39 @@
+{
+  "name": "framework-jest",
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --collectCoverage",
+    "test:watch": "jest --watch"
+  },
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/vendor/**"
+  ],
+  "coverageThreshold": {
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LevVolkov/Framework-Jest.git"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "Lev Volkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LevVolkov/Framework-Jest/issues"
+  },
+  "homepage": "https://github.com/LevVolkov/Framework-Jest#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
